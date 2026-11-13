@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react'
-
+import { useState, useEffect } from "react";
+import CommentContainer from "./components/CommentContainer";
 
 export default function App() {
   return (
     <div>
-      <h1>dnkdm</h1>
+      <CommentContainer />
     </div>
-  )
+  );
 }
